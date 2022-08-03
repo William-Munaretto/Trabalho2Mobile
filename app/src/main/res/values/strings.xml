@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Lista</string>
+    <string name="item">Item</string>
+    <string name="ok">OK</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="Cancelado">Cancelado</string>
+    <string name="adicionado">Item adicionado!</string>
+    <string name="act_delete">Excluir</string>
+    <string name="act_edit">Editar</string>
+    <string-array name="itensLista">
+        <item></item>
+    </string-array>
+</resources>
