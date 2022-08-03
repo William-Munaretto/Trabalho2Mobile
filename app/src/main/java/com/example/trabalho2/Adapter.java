@@ -66,7 +66,9 @@ public class Adapter extends BaseAdapter {
         return textoDialogList;
     }
 
-    public void editarItem(String item){
-
+    public void editarItem(String item, int i){
+        if(item.equals(textoDialogList.get(i))){
+            //chamar a dialog passando o item.
+        }
     }
 }

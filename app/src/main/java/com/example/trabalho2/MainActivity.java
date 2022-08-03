@@ -83,13 +83,14 @@ public class MainActivity extends AppCompatActivity implements DialogInsert.onIt
             mode.finish();
             return true;
         }
-//        else if(item.getItemId() == R.id.act_edit){
-//            for(String s : selecionados){
-////                adapter.editarItem(s);
-//            }
-//            mode.finish();
-//            return true;
-//        }
+        else if(item.getItemId() == R.id.act_edit){
+            for(String s : selecionados){
+                int i = selecionados.indexOf(s);
+                adapter.editarItem(s, i);
+            }
+            mode.finish();
+            return true;
+        }
 
         return false;
     }
